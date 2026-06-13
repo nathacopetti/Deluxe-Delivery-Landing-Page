@@ -2,3 +2,58 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+header img {
+  height: 30px;
+  width: 30px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+main img {
+  height: 500px;
+  width: 500px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
