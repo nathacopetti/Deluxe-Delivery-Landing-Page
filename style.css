@@ -64,17 +64,73 @@ main {
   align-items: center;
   gap: 3rem;
   padding: 1rem;
-  background-color: red;
+  background: #4965f2;
+  background: linear-gradient(
+    306deg,
+    rgba(73, 101, 242, 1) 0%,
+    rgba(255, 82, 116, 1) 94%
+  );
 }
 
 main img {
-  height: 500px;
-  width: 500px;
+  height: 31.25rem;
+  width: 31.25rem;
 }
+
 .hero-section {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.75rem;
+}
+
+.hero-section h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.hero-section h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.hero-section h1 span {
+  display: block;
+}
+
+.hero-section p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #ffffff;
+  max-width: 550px;
+  line-height: 1.8;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-section form input {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  outline: none;
+  border: none;
+  padding: 10px 100px 10px 10px;
+}
+
+.hero-section form button {
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  background-color: #fc466b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #ffffff;
+  border: none;
 }
 
 footer {
